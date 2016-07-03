@@ -9,7 +9,7 @@ var port = process.argv[2],
 // connection. 
 // the callback takes a request and a response as parameters.
 // request: fetch properties (header, query-string)
-// response: sending data to the client (header and body)
+// response: send data to the client (header and body)
 
 var server = http.createServer(function (req, res) {
 
