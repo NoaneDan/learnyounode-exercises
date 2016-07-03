@@ -8,7 +8,7 @@ http.get(url, function(response) {
 
 	response.pipe(bl(function (err, data) {
 		if (err) {
-			return console.log(err)
+			return console.error(err)
 		}
 
 		console.log(data.length)
